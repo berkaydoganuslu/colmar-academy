@@ -10,20 +10,22 @@
   <body>
 
     <div class="header">
-        <nav id="left-side"> <img src="resources/images/ic-logo.svg" alt="Logo"> COLMAR ACADEMY</nav>
-        <nav id="right-side"> 
-            <span>On Campus</span>
-            <span>Online</span>
-            <span>For Companies</span>
-            <span>Sign In</span>
-        </nav>
+       <nav id="left-side"> <img src="resources/images/ic-logo.svg" alt="Logo">
+            <h2> COLMAR ACADEMY</h2>
+       </nav>
+        <ul id="right-side"> 
+            <li>On Campus</li>
+            <li>Online</li>
+            <li>For Companies</li>
+            <li>Sign In</li>
+        </ul>
     </div>
 
     <div class="intro">
-        <nav id="image-banner"> <img src="resources/images/banner.jpg" alt="Image"></nav>
+        <img id="image-banner" src="resources/images/banner.jpg" alt="Image">
         <nav id="text-banner"> 
-            <h2>Learn Something new everyday</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+            <h1>Learn Something <br> new everyday</h1>
+            <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p> 
             <button class="button-1" type="button">Start Here</button>
         </nav>
 
@@ -32,18 +34,21 @@
     <div class="information">
         <nav id="information-left">
             <img src="resources/images/information-main.jpg" alt="Image">
-            <h2>It Doesn't Hut Practicing</h2>
-            <p>"After hunting for several hours, we finally saw a large seal sunning itself on a flat rock. I took one of the wooden clubs while Larry took the longer one. We slowly snuck up behind the seal until we were close enough to club it over its head. The seal slumped over and died. This seal would help us survive. We could eat the meat and fat. The fat could be burned in a shell for light and the fur could be used to make a blanket. We declared our first day of hunting a great success."</p>
+            <span id="information-text">
+                <h2>It Doesn't Hut Practicing</h2>
+                <p>"After hunting for several hours, we finally saw a large seal sunning itself on a flat rock. I took one of the wooden clubs while Larry took the longer one. We slowly snuck up behind the seal until we were close enough to club it over its head. The seal slumped over and died. This seal would help us survive. We could eat the meat and fat. The fat could be burned in a shell for light and the fur could be used to make a blanket. We declared our first day of hunting a great success."</p>
+                <p>Emanuel, Sr. Strategist at Hiring.com</p>
+            </span>
         </nav>
         <nav id="information-right">
             <span class="orientation" >
                 <span id="image-orientation">
                 <img src="resources/images/information-orientation.jpg" alt="">
                 </span>
-                <span>
+                <span id="text-information">
                     <h3>Orientation Date</h3>
                     <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                    <p>Read More</p>
+                    <a href="">Read More</a>
                 </span>
             </span>
 
@@ -51,27 +56,27 @@
                 <span id="image-campus">
                     <img src="resources/images/information-campus.jpg" alt="Campus Photo">
                 </span>
-                <span>
+                <span id="text-information">
                     <h3>Our Campus</h3>
                     <p>Find which campus is close to you</p>
-                    <p>Read more</p>
+                    <a href="">Read more</a>
                 </span>
             </span>
             <span class="lecture">
                 <span id="image-lecture">
                     <img src="resources/images/information-guest-lecture.jpg" alt="Lecture Photo">
                 </span>
-                <span>
+                <span id="text-information">
                     <h3>Guest Lecture</h3>
                     <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                    <p>Read more</p>
+                    <a href="">Read more</a>
                 </span>
             </span>
         </nav>
     </div>
 
     <div class="main">
-        <h2>Start Learning</h2>
+        <h1>Start Learning</h1>
         <nav id="courses">
             <span id="software">
                 <img src="resources/images/course-software.jpg" alt="Software Engineering">
@@ -115,11 +120,17 @@
                 <p>Analytics, Content Marketing, Mobile Marketing</p>
             </span>
         </nav>
+    </div>
+            <h1 class="bottom-title"> Thesis Exhibit</h1>
+            <div class="bottom">
 
-        <div class="bottom">
-            <h2> Thesis Exhibit</h3>
             <nav id="bottom-left">
-                <span id="bottom-left-video"></span>
+                <span id="bottom-left-video"> 
+                    <video autoplay muted loop width="100%">
+                        <source src="resources/videos/thesis.mp4" type="video/mp4">
+                        Your browser does not support the video tag.            
+                    </video>
+                </span>
                 <span id="bottom-left-text">
                     <h3>
                         Reimagine urban
@@ -132,34 +143,37 @@
 
             <nav id="bottom-right">
                 <span class="fisma">
-                    <span class="fisma photo"> 
+                    <span class="fisma-photo"> 
                         <img src="resources/images/thesis-fisma.jpg" alt="Photo"> 
                     </span>
-                    <span class="fisma text">
+                    <span class="fisma-text">
                         <h2>Fisma: Design and Prototype</h2>
                         <p>Designer showcase of new prototype product</p>
                     </span>
                 </span>
                 <span class="city">
-                    <span class="city photo"> 
+                    <span class="city-photo"> 
                         <img src="resources/images/thesis-now-and-then.jpg" alt="Photo">
                      </span>
-                    <span class="city text">
+                    <span class="city-text">
                         <h2>Now and Then</h2>
+                        <p></p>
                         <p>Research study about New York</p>
                     </span>
                 </span>
             </nav>
         </div>
-    </div>
+
 
     <footer> 
         <div class="footer-left">
-            <p>2016 Colmar Academy. All right reserved</p>
+            <p> &copy;2016 Colmar Academy. All right reserved</p>
         </div>
         <div class="footer-right">
-            <p>Terms</p>
-            <p>Privacy</p>
+            <ul>
+                <li>Terms</li>
+                <li>Privacy</li>
+            </ul>
         </div>
     </footer>
 
