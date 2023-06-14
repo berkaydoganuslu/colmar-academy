@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Raleway';
+
 }
 
 body {
@@ -46,10 +48,23 @@ body {
     flex-direction: column;
     margin-left: 24px;
     justify-content: center;
-    justify-content: space-around;
     font-size: xx-large;
-    height: 50%;
+    top: 72px;
     left: 24px;
+}
+
+.intro p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.intro button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: lightslategray;
+    color: white;
+    font-size: large;
+    width: 100%;
 }
 
 .information {
@@ -57,6 +72,11 @@ body {
     margin-top: 32px;
     margin-left: 24px;
     margin-bottom: 32px;
+    width: 100%;
+}
+
+.information img {
+    width: 100%;
 }
 
 .information #information-text {
@@ -79,9 +99,9 @@ body {
 }
 
 #information-right {
-    width: 40%;
     display: flex;
     flex-direction: column;
+    width: 40%;
 }
 
 .orientation,
@@ -132,7 +152,11 @@ body {
     margin-right: 72px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+#courses img {
+    width: 100%;
 }
 
 .main h3 {
@@ -149,6 +173,7 @@ body {
 #courses span {
     background-color: white;
     margin-bottom: 32px;
+    width: 30%;
     padding-bottom: 24px;
 }
 
@@ -197,6 +222,7 @@ body {
     flex-direction: column;
     justify-content: center;
     padding-left: 16px;
+    width: 65%;
 }
 
 .city-photo,
@@ -204,6 +230,10 @@ body {
     width: 35%;
     margin: 1rem;
     height: auto;
+}
+
+#bottom-right img {
+    width: 100%;
 }
 
 .fisma-text h2,
